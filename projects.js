@@ -1,7 +1,7 @@
 export const projects = [
   {
     img: "photos/project1c.jpg",
-    name: "مشروع مشفى عين ترم",
+    name: "مشروع مشفى عين ترما",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, aliquam explicabo tempora optio omnis enim amet sit iusto, ducimus assumenda non natus voluptate adipisci voluptatem? Non, quae pariatur temporibus doloremque magnam sit animi nulla, magni est voluptas, voluptate repellat! Maiores!",
     id: 1,
     Link: " "
@@ -41,4 +41,5 @@ export const projects = [
     id: 1,
     Link: " "
   },
+
 ]
