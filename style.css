@@ -1,0 +1,786 @@
+
+body {
+    background-color: #FFFBDE;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 14px 0;
+    align-items: center;
+    user-select: none;
+    line-break: none;
+}
+
+.headerLinks a,
+.headerLinks {
+    text-decoration: none;
+    color: #005c59;
+    margin: 0 10px;
+    font-size: 18px;
+    transition: 500ms ease;
+
+}
+
+.headerLinks {
+    margin-left: 30px;
+}
+
+.headerLink {
+    transition: 500ms ease;
+}
+
+.headerLink:hover {
+    color: #001d11;
+}
+
+.headerName {
+    color: #005c59;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.heroPage {
+    background-image: url(photos/backgroundCityImage4.jpg);
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.heroPage p {
+    background: rgba(36, 36, 36, 0.637);
+    font-size: 62px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.firstAbout {
+    margin: 10px 0 10px;
+}
+
+.firstAbout>p {
+    text-align: right;
+    margin: 30px 50px 0 50px;
+    font-size: 60px;
+    color: #90D1CA;
+}
+
+.startInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.startInfoText {
+    width: 55%;
+    text-align: right;
+    align-self: flex-start;
+}
+
+.startInfoText p {
+    font-size: 59px;
+    font-weight: 900;
+    color: #005c59;
+    ;
+}
+
+.startInfoText h1 {
+    font-size: 25px;
+
+}
+
+.sectionBorder {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span {
+    color: #005c59;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 10px;
+
+}
+
+.SecondstartInfo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px auto 40px;
+    width: 90%;
+    gap: 50px;
+}
+
+.SecondstartInfo .startInfoImag {
+    margin-right: 35px;
+    align-self: flex-end;
+    
+}
+
+.SecondstartInfo .startInfoText {
+    text-align: center;
+    width: 25%;
+    align-self: flex-start;
+    margin-top: 100px;
+}
+
+.CurrentYear {
+    text-align: left;
+    margin: 10px 50px;
+    font-size: 60px;
+    color: #90D1CA;
+}
+
+.Qualities {
+    background-color: #005c59;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.qualitiesText {
+    text-align: center;
+    font-size: 40px;
+    color: #FFFBDE;
+}
+
+.qualitiesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.qualitiesSection .qualityImage img {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.qualitiesSection .quality {
+    width: 220px;
+    height: 220px;
+    background-color: #FFFBDE;
+    box-shadow: 10px 10px 10px #01221f;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #005c59;
+    margin: 30px;
+    transition: 500ms ease;
+}
+
+.qualitiesSection .quality h1 {
+    font-size: 20px;
+    line-break: strict;
+    width: 80%;
+}
+
+.qualitiesSection .quality:hover {
+    transform: translateY(-15px);
+}
+
+.projectsPreview {
+    margin: 50px 0;
+}
+
+.swiper {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    cursor: grab;
+}
+
+.swiper:active {
+    cursor: grabbing;
+}
+
+.projectsPreview {
+    margin: 50px 0;
+}
+
+.projectsPreview .ProjectPreviewText {
+    text-align: center;
+    font-size: 59px;
+    color: #005c59;
+    ;
+    font-weight: 900;
+    margin: 40px 0;
+}
+
+.ProjectPrv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.ProjectText {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.ProjectText h1 {
+    color: #005c59;
+}
+
+.ProjectText p {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+color: black;
+    justify-self: flex-start;
+}
+
+.ProjectLink {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.ProjectLink h1 {
+    font-size: 49px;
+    color: #005c59;
+    font-weight: 900;
+}
+
+.ProjectLink a>button {
+    width: 220px;
+    height: 50px;
+    border: solid 1px #005c59;
+    background-color: transparent;
+    color: #005c59;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.ProjectLink a>button:hover {
+    background-color: #005c59;
+    border: 1px solid transparent;
+    color: rgb(234, 233, 235);
+}
+
+.contactMain {
+    margin: 50px 0 100px;
+}
+
+.ContactLinks {
+    margin: 200px auto 100px;
+}
+
+.ContactLinks .ContactLinksText {
+    color: #005c59;
+    ;
+    font-size: 42px;
+    text-align: center;
+}
+
+.ContactLinks .ContactPageLinksLogos {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.ContactPageLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.ContactPageLink h1 {
+    color: #005c59;
+    ;
+    font-size: 42px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.ContactPageLink a>button {
+    width: 220px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 60px;
+    font-weight: 700;
+    background-color: transparent;
+    margin: -20px auto 0;
+    border: solid 1px #005c59;
+    color: #005c59;
+    transition: 500ms ease;
+}
+
+.ContactPageLink a>button:hover {
+    background-color: #005c59;
+    border: 1px solid transparent;
+    color: rgb(234, 233, 235);
+}
+
+.ProjectsTitle {
+    text-align: center;
+    font-size: 48px;
+    color: #005c59;
+    margin: 50px 0 -20px 0;
+}
+
+.ProjectsFuture {
+    text-align: center;
+    font-size: 48px;
+    color: #005c59;
+    margin: 90px 0 50px 0;
+}
+
+.ProjectsPage {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectBlock {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #005c5944;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.ProjectPageText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFBDE;
+}
+
+.ProjectPageText h1 {
+    font-size: 23px;
+    color: #005c59;
+    align-self: flex-end;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.ProjectPageText p {
+    width: 80%;
+    margin: 20px auto;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: right;
+    color: #005c59;
+}
+
+.ContactForm {
+    width: 90%;
+    margin: 50px auto 150px;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.contactFormH1 {
+    text-align: center;
+    font-size: 57px;
+    color: #FFFBDE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #FFFBDE;
+}
+
+form input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #FFFBDE;
+    background-color: white;
+}
+
+form textarea {
+    width: 510px;
+    font-size: 19px;
+    text-align: right;
+    padding: 5px;
+    height: 260px;
+    resize: none;
+}
+
+.formButtons input {
+    width: 250px;
+    margin: 0 5px;
+    color: #FFFBDE;
+    letter-spacing: -1.3px;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 500ms ease;
+    color: #005c59;
+}
+
+.formButtons input:hover {
+    background-color: #005c59;
+    border: 1px solid #FFFBDE;
+    color: rgb(234, 233, 235);
+}
+
+
+.otherContacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.otherContacts p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.otherContacts h1 {
+    font-size: 41px;
+    color: #FFFBDE;
+}
+
+.ContactIcons {
+    display: flex;
+    gap: 70px;
+    margin: 10px 0;
+}
+
+.otherContacts>img {
+    border-radius: 50%;
+
+    margin: 40px 0 20px;
+}
+
+.ContactsectionBorder>span {
+    color: #FFFBDE;
+}
+
+
+
+
+
+
+
+footer h1 {
+    margin: 0;
+    background-color: #005c59;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 10px 0 0;
+    color: #FFFBDE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1110px) {
+    .SecondstartInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .SecondstartInfo .startInfoImage {
+        align-self: center;
+        margin: 0;
+    }
+
+    .SecondstartInfo .startInfoText {
+        align-self: center;
+        width: 90%;
+        margin: 0;
+    }
+    .sectionBorder span
+    {
+        font-size: 4vw;
+        letter-spacing:4px;
+    }
+    .ContactForm
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    form 
+    {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 914px)
+{
+.swiper
+{
+    width: 700px;
+}
+.ProjectPrv
+{
+    gap: 10;
+    flex-direction: column;
+}
+    .ProjectText h1
+    {
+   font-size: 24px;
+
+   align-self: center;
+    }
+    .ProjectText
+    {
+        margin: -30px 0 50px;
+    }
+    .ProjectText p 
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width: 842px) {
+    .heroPage p {
+        width: 85%;
+    }
+    .startInfo
+    {
+        flex-direction: column-reverse;
+    }
+    .startInfo .startInfoText
+    {
+        align-self: center;
+        text-align: center;
+        width: 90%;
+    }
+    .SecondstartInfo .startInfoImage {
+       transform: scale(0.8);
+    }
+}
+@media (max-width: 714px) {
+    .swiper
+{
+    width: 480px;
+}
+.ProjectPrv
+{
+    flex-direction: column;
+
+}
+.ProjectText
+{
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.formButtons
+{
+    width: 115%;
+    display: flex;
+}
+.InputBlock input 
+{
+    width: 80vw;
+}
+.InputBlock textarea
+{
+    width: 85vw;
+}
+}
+
+
+@media (max-width: 667px) {
+    .headerLinks a {
+        font-size: 16px;
+
+    }
+
+    .headerLinks {
+        margin-left: 10px;
+    }
+
+    .headerName {
+        font-size: 21px;
+        margin-right: 15px;
+    }
+    .SecondstartInfo .startInfoImage {
+        transform: scale(0.7);
+     }
+     .ProjectBlock
+     {
+        transform: scale(0.9);
+        margin-bottom: -20px;
+     }
+}
+
+@media (max-width:563px) {
+    
+    .headerLinks a {
+        font-size: 14px;
+        margin: 0;
+    }
+    .SecondstartInfo .startInfoImage {
+        transform: scale(0.55);
+     }
+     .sectionBorder span
+     {
+         font-size: 4vw;
+         letter-spacing:3px;
+     }
+     .ProjectBlock
+     {
+         transform: scale(0.8);
+         margin-bottom: -70px;
+     }
+}
+@media (max-width: 494px) {
+    .headerName {
+        font-size: 15px;
+        
+        text-align: right;
+    }
+
+    .headerLinks a {
+        font-size: 12px;
+        margin: 0;
+        line-break: auto;
+    }
+    .SecondstartInfo .startInfoImage
+    {
+        transform: scale(0.5);
+    }
+.projectsPreview .ProjectPreviewText
+{
+    font-size: 45px;
+}
+    .swiper
+    {
+       width: 300px;
+    }
+    .ProjectImage
+    {
+        width: 100%;
+    }
+    .ProjectPrv .ProjectText 
+    {
+        margin: -10px 0 70px;
+    }
+    .ContactLinksText h1
+    {
+        font-size: 59px;
+    }
+    .ContactPageLinksLogos
+    {
+        flex-wrap: wrap;
+    }
+    .ContactPageLink h1
+    {
+       font-size: 36px;
+       width: 90%;
+    }
+    .ProjectPreviewSwiper
+    {
+        overflow: hidden;
+    }
+    .ProjectBlock
+    {
+        transform: scale(0.6);
+        margin-bottom: -160px;
+    }
+    .ProjectsTitle
+    {
+        margin-bottom: -110px;
+    }
+    .ProjectsFuture
+    {
+        margin: 150px auto 100px;
+    }
+}
+@media (max-width: 480px) {
+   
+}
+
+@media (max-width: 371px) {
+    .heroPage p {
+        font-size: 50px;
+    }
+
+}
