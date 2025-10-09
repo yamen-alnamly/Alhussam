@@ -725,7 +725,7 @@ footer h1 {
     }
     .SecondstartInfo .startInfoImage
     {
-        transform: scale(0.5);
+        transform: scale(0.45);
     }
 .projectsPreview .ProjectPreviewText
 {
@@ -774,13 +774,12 @@ footer h1 {
         margin: 150px auto 100px;
     }
 }
-@media (max-width: 480px) {
-   
-}
+
 
 @media (max-width: 371px) {
     .heroPage p {
         font-size: 50px;
     }
+
 
 }
